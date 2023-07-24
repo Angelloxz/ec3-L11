@@ -1,0 +1,20 @@
+@server = https://angelloxz-musical-succotash-7v99wrgrww45hp95g-8080.preview.app.github.dev
+###
+@apiserver ={{server}}/api/curso
+GET {{server}}/
+###
+GET {{server}}/codigo
+###
+GET {{server}}/nombre-completo
+###
+GET {{apiserver}}/listar
+###
+POST {{apiserver}}/nuevo
+Content-Type: application/x-www-form-urlencoded
+
+nombre=Estructura+de+datos&creditos=5
+###
+DELETE {{apiserver}}/eliminar
+Content-Type: application/x-www-form-urlencoded
+
+id=1
